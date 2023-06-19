@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route exact path='/react-app' component={Home} />
+          <Route exact path='/react-app/' component={Home} />
           <Route exact path='/About' component={About} />
           <Route component={NotFound}></Route>
         </Switch>
